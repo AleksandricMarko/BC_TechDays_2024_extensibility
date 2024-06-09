@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type":  "al",
+            "name":  "Your own server",
+            "serverInstance":  "Navision_master",
+            "startupObjectId":  22,
+            "server":  "http://localhost",
+            "startupObjectType":  "Page",
+            "launchBrowser":  true,
+            "enableLongRunningSqlStatements":  true,
+            "enableSqlInformationDebugger":  true,
+            "breakOnError":  true,
+            "request":  "launch",
+            "authentication":  "Windows",
+            "dependencyPublishingOption":  "Ignore",
+            "schemaUpdateMode": "ForceSync"
+        }
+    ]
+}
